@@ -1,0 +1,32 @@
+[
+  { "nome": "Google Chrome",            "id": "Google.Chrome",                    "categoria": "Geral",   "padrao": true  },
+  { "nome": "Mozilla Firefox",          "id": "Mozilla.Firefox.pt-BR",            "categoria": "Geral",   "padrao": false },
+  { "nome": "WinRAR",                   "id": "RARLab.WinRAR",                    "categoria": "Geral",   "padrao": true  },
+  { "nome": "7-Zip",                    "id": "7zip.7zip",                        "categoria": "Geral",   "padrao": false },
+  { "nome": "Adobe Acrobat Reader",     "id": "Adobe.Acrobat.Reader.64-bit",      "categoria": "Geral",   "padrao": true  },
+  { "nome": "VLC Media Player",         "id": "VideoLAN.VLC",                     "categoria": "Geral",   "padrao": true  },
+  { "nome": "AnyDesk",                  "id": "AnyDeskSoftwareGmbH.AnyDesk",      "categoria": "Geral",   "padrao": true  },
+  { "nome": "TeamViewer",               "id": "TeamViewer.TeamViewer",            "categoria": "Geral",   "padrao": false },
+  { "nome": "Notepad++",                "id": "Notepad++.Notepad++",              "categoria": "Geral",   "padrao": false },
+  { "nome": "Zoom",                     "id": "Zoom.Zoom",                        "categoria": "Geral",   "padrao": false },
+  { "nome": "Microsoft Teams",          "id": "Microsoft.Teams",                  "categoria": "Geral",   "padrao": false },
+  { "nome": "Microsoft PowerToys",      "id": "Microsoft.PowerToys",              "categoria": "Geral",   "padrao": false },
+
+  { "nome": "RustDesk",                 "id": "RustDesk.RustDesk",                "categoria": "Suporte", "padrao": false },
+  { "nome": "Advanced IP Scanner",      "id": "Famatech.AdvancedIPScanner",       "categoria": "Suporte", "padrao": true  },
+  { "nome": "CPU-Z",                    "id": "CPUID.CPU-Z",                      "categoria": "Suporte", "padrao": true  },
+  { "nome": "HWiNFO",                   "id": "REALiX.HWiNFO",                    "categoria": "Suporte", "padrao": false },
+  { "nome": "CrystalDiskInfo",          "id": "CrystalDewWorld.CrystalDiskInfo",  "categoria": "Suporte", "padrao": true  },
+  { "nome": "TreeSize Free",            "id": "JAMSoftware.TreeSize.Free",        "categoria": "Suporte", "padrao": true  },
+  { "nome": "Everything",               "id": "voidtools.Everything",             "categoria": "Suporte", "padrao": true  },
+  { "nome": "Revo Uninstaller",         "id": "RevoUninstaller.RevoUninstaller",  "categoria": "Suporte", "padrao": false },
+  { "nome": "Rufus",                    "id": "Rufus.Rufus",                      "categoria": "Suporte", "padrao": false },
+  { "nome": "Ventoy",                   "id": "Ventoy.Ventoy",                    "categoria": "Suporte", "padrao": false },
+
+  { "nome": "Windows Terminal",         "id": "Microsoft.WindowsTerminal",        "categoria": "Dev",     "padrao": true  },
+  { "nome": "PowerShell 7",             "id": "Microsoft.PowerShell",             "categoria": "Dev",     "padrao": true  },
+  { "nome": "Visual Studio Code",       "id": "Microsoft.VisualStudioCode",       "categoria": "Dev",     "padrao": true  },
+  { "nome": "Git",                      "id": "Git.Git",                          "categoria": "Dev",     "padrao": true  },
+  { "nome": "PuTTY",                    "id": "PuTTY.PuTTY",                      "categoria": "Dev",     "padrao": false },
+  { "nome": "WinSCP",                   "id": "WinSCP.WinSCP",                    "categoria": "Dev",     "padrao": false }
+]
