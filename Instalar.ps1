@@ -331,7 +331,7 @@ $colStatus.SortMode   = 'NotSortable'
 foreach ($app in ($apps | Sort-Object nome)) {
     $indice = $grade.Rows.Add()
     $linha  = $grade.Rows[$indice]
-    $linha.Cells[0].Value = [bool]$app.padrao
+    $linha.Cells[0].Value = $false   # tudo desmarcado ao abrir
     $linha.Cells[1].Value = [string]$app.nome
     $linha.Cells[2].Value = ''
     $linha.Tag = $app
@@ -569,7 +569,7 @@ function Mudar-Aba($NovaAba) {
         $btnSugestao.Text  = 'Recomendados'
         Limpar-Status
         if ($vinhaDeDesinstalar) {
-            foreach ($l in $grade.Rows) { $l.Cells[0].Value = [bool]$l.Tag.padrao }
+            foreach ($l in $grade.Rows) { $l.Cells[0].Value = $false }
         }
         Aplicar-Filtro
         Atualizar-Contagem
@@ -666,7 +666,7 @@ $form.Add_Shown({
     Aplicar-Filtro
     $grade.ClearSelection()
     $grade.Focus() | Out-Null   # tira o foco da pesquisa para manter o texto de exemplo
-    $status.Text = "{0} programas no total. Os recomendados de cada aba ja vem marcados." -f $apps.Count
+    $status.Text = "{0} programas no total. Marque o que deseja instalar ou use o botao Recomendados." -f $apps.Count
 })
 
 [void]$form.ShowDialog()
